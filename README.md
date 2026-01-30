@@ -37,11 +37,6 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 
-
-
-
-
-
 9.	Click on emulate to start emulation 
 
 
@@ -78,11 +73,16 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
-
-
-
+```
+Mov Ax,5782H
+Mov Bx,23ABH
+Add Ax,Bx
+Mov [3001H],Ax
+HLT
+```
 ## Output  
- 
+ <img width="1434" height="1055" alt="image" src="https://github.com/user-attachments/assets/56291228-577c-4b31-befb-2af7e6d1ece2" />
+
 ## Subtraction   of 8 bit numbers  ALP 
  
 ## Output  
