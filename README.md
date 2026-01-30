@@ -83,9 +83,17 @@ HLT
 ## Output  
  <img width="1434" height="1055" alt="image" src="https://github.com/user-attachments/assets/56291228-577c-4b31-befb-2af7e6d1ece2" />
 
-## Subtraction   of 8 bit numbers  ALP 
- 
+## Subtraction   of 8-bit numbers  ALP 
+ ```
+Mov Ax,5782H
+Mov Bx,23ABH
+Sub Ax,Bx
+Mov [3003H],Ax
+HLT
+```
 ## Output  
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/f5dd146e-eafc-49c2-bef3-484f0b188c5c" />
+
 ## Multiplication alp 
  ## Output  
 
