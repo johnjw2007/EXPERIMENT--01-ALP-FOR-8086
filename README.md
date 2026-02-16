@@ -1,7 +1,8 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name : John Wilfred Thomas J W
-Reg no : 212224040141
-Date of experiment : 16.02.2026
+
+Name: John Wilfred Thomas J W
+Reg no: 212224040141
+Date of experiment: 16.02.2026
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
