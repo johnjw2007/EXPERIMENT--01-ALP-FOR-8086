@@ -1,11 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
-
-
-
-
+Name : John Wilfred Thomas J W
+Reg no : 212224040141
+Date of experiment : 16.02.2026
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
@@ -32,43 +28,13 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ![image](https://user-images.githubusercontent.com/36288975/189273263-d65baae9-4b8f-4723-afb3-c0ffa4052b04.png)
 
-
-
-
-
-
 9.	Click on emulate to start emulation 
-
-
-
-
-
-
-
 
 ![image](https://user-images.githubusercontent.com/36288975/189273273-9bb36ec1-e2e8-4892-8d35-37707332bfdc.png)
 
-
-
-
-
-
-
-
 10.	If no errors are found click on run the program and check the status of various flags in the flags tab as shown below 
 
-
-
-
-
-
 ![image](https://user-images.githubusercontent.com/36288975/189273277-113a2a33-4a40-4ff8-95a5-ecd3a1f504fe.png)
-
-
-
-
-
-
 
 ## Programs for arithmetic  operations
 
@@ -95,21 +61,78 @@ HLT
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/f5dd146e-eafc-49c2-bef3-484f0b188c5c" />
 
 ## Multiplication alp 
- ## Output  
-
+```
+mov AX,5782H
+mov BX,23ABH
+mul BX
+mov [3005H],AX
+mov [3007H],DX
+HLT
+```
+## Output  
+<img width="1919" height="1016" alt="image" src="https://github.com/user-attachments/assets/df1813b2-f345-4592-af2d-96255897689a" />
 
 ## Division alp 
-
+```
+mov AX,5782H
+mov BX,23ABH
+div BX
+mov [3009H],AX
+mov [300BH],DX
+HLT
+```
 ## Output  
+<img width="1919" height="1015" alt="image" src="https://github.com/user-attachments/assets/b5755e0d-20df-4d18-8718-245e862cec96" />
 
+## AND GATE ALP
+```
+mov AX,5782H
+mov BX,23ABH
+AND AX,BX
+MOV [4001H],AX
+HLT
+```
+## OUTPUT
+
+<img width="1919" height="1021" alt="and" src="https://github.com/user-attachments/assets/cdf5d468-c722-4c49-a30b-e862b006fbda" />
+
+## OR GATE ALP
+
+```
+mov AX,5782H
+mov BX,23ABH
+OR AX,BX
+MOV [4003H],AX
+HLT
+```
+## OUTPUT
+
+<img width="1918" height="1013" alt="or" src="https://github.com/user-attachments/assets/1231bcdb-621c-4d3f-99a8-6bfb9e149f7f" />
+
+## NOT GATE ALP
+
+```
+mov AX,5782H
+NOT AX
+MOV [4005H],AX
+HLT
+```
+## OUTPUT
+
+<img width="1919" height="1017" alt="not" src="https://github.com/user-attachments/assets/ad1fa78d-834b-4bc8-b8d3-97b707a3b7f7" />
+
+## XOR GATE ALP
+
+```
+MOV AX,5782H
+MOV BX,23ABH
+XOR AX,BX
+HLT
+```
+
+## OUTPUT
+
+<img width="815" height="431" alt="image" src="https://github.com/user-attachments/assets/5f335be4-2d4d-43c3-8df3-7de8ed60b3d5" />
 
 ## Result :
- 
-
-
-
-
-
-
-
-
+The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
